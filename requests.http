@@ -1,0 +1,13 @@
+### hello-world
+
+GET http://localhost:5076/ HTTP/1.1
+
+### Login
+
+POST http://localhost:5076/login/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "adm@teste.com",
+  "senha": "123456"
+}
